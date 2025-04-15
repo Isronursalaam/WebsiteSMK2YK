@@ -12,6 +12,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    -webkit-box-shadow: -4px 15px 16px -6px rgba(66, 68, 90, 1);
+-moz-box-shadow: -4px 15px 16px -6px rgba(66, 68, 90, 1);
+box-shadow: -4px 15px 16px -6px rgba(66, 68, 90, 1);
 }
 
 nav ul {
@@ -57,4 +60,32 @@ h3 {
 
 .list {
     margin-left: auto;
+}
+
+#sidebar {
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+    margin-left: -30%;
+    position: absolute;
+    transition: all 1s;
+    color: white;
+}
+
+#penghilang {
+    display: none;
+}
+
+.togle{
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar ,ul ,li,a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
 }

@@ -11,7 +11,8 @@
 
         <nav>
             <div class="Bsidebar">
-                <button onclick="muncul()">☰</button>
+                <button class="togle" id="pemuncul" onclick="muncul()">☰</button>
+                <button class="togle" id="penghilang" onclick="hilang()">X</button>
             </div>
             <div class="logo">
                 <img src="image/logo.avif" alt="">
@@ -28,8 +29,18 @@
             </ul>
             </div>
         </nav>
-
-
+        
+        <div id="sidebar">
+            <ul>
+                <li><a href="">Beranda</a></li>
+                <li><a href="">Profil Jurusan</a></li>
+                <li><a href="">Prestasi</a></li>
+                <li><a href="">Album</a></li>
+                <li><a href="">Buku Tamu</a></li>
+            </ul>
+        </div>
     </div>
+
 </body>
+ <script src="index.js"></script>
 </html>
