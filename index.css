@@ -99,13 +99,14 @@ h3 {
 }
 
 model-viewer {
-    width: 50%;
+    width: 100%;
     height: 100%;
+
 }  
 
 .text{
     color: white;
-    margin-top: 13rem;
+    margin-bottom: 15%;
     border: 1px solid white;
     aspect-ratio: 2/1;
     height: 300px;
@@ -124,8 +125,20 @@ model-viewer {
     padding-top: 50px;
 }
 
+.td{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.ww{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 #Home{
     width: 100%;
     height: 100vh;
