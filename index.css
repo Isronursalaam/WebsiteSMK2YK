@@ -102,11 +102,34 @@ model-viewer {
     height: 100%;
 }  
 
+.text{
+    color: white;
+    margin-top: 15rem;
+    border: 1px solid white;
+    aspect-ratio: 2/1;
+    height: 300px;
+    text-align: justify;
+    border-radius: 5px;
+    transition: 0.3s all;
+    -webkit-backdrop-filter: blur(80px);
+}
+
+.text:hover{
+    transform: scale(1.02);
+}
+
+.isit{
+    padding: 14px;
+    padding-top: 50px;
+}
+
+
 
 #Home{
     width: 100%;
     height: 100vh;
     background: linear-gradient(50deg, rgb(49, 49, 49), rgb(255, 255, 255));
+    display: flex;
       
 }
 
