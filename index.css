@@ -133,13 +133,40 @@ model-viewer {
       
 }
 
-@media only screen and (max-width: 480px){
-.list{
-    display: none;
+@media only screen and (max-width: 768px) {
+    .list {
+        display: none;
+    }
+
+    #sidebar {
+        width: 70%;
+        margin-left: 0;
+    }
+
+    .text {
+        width: 90%;
+        margin: 5rem auto;
+    }
+
+    model-viewer {
+        width: 100%;
+    }
+
+    #Home {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: row;
+        padding: 0 10px;
+    }
 }
-#sidebar{
-    width: 30%;
-    margin-left: 500%;
-}
-}
+
 
