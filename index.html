@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beranda</title>
     <link rel="stylesheet" href="index.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -31,6 +32,7 @@
         </nav>
         
         <div id="sidebar">
+            <div class="isi">
             <ul>
                 <li><a href="">Beranda</a></li>
                 <li><a href="">Profil Jurusan</a></li>
@@ -39,7 +41,18 @@
                 <li><a href="">Buku Tamu</a></li>
             </ul>
         </div>
+        </div>
     </div>
+
+<section id="Home">
+
+    <model-viewer camera-controls auto-rotate  touch-action="pan-x"  shadow-intensity="1" src="image/kotak_listrik.glb"></model-viewer>
+    <div class="text">
+        
+    </div>
+</section>
+
+
 
 </body>
  <script src="index.js"></script>

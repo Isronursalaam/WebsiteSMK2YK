@@ -8,13 +8,16 @@ html, * {
 nav {
     background-color: rgb(39, 39, 39);
     height: 4rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    -webkit-box-shadow: -4px 15px 16px -6px rgba(66, 68, 90, 1);
--moz-box-shadow: -4px 15px 16px -6px rgba(66, 68, 90, 1);
-box-shadow: -4px 15px 16px -6px rgba(66, 68, 90, 1);
+    position: fixed;
+    z-index: 2;
+    -webkit-box-shadow: -4px 15px 10px -13px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -4px 15px 10px -13px rgba(66, 68, 90, 1);
+    box-shadow: -4px 15px 10px -13px rgba(66, 68, 90, 1);
 }
 
 nav ul {
@@ -67,8 +70,8 @@ h3 {
     height: 100vh;
     background-color: rgb(39, 39, 39);
     margin-left: -30%;
-    position: absolute;
-    transition: all 1s;
+    position: fixed;
+    transition: all 0.5s;
     color: white;
 }
 
@@ -88,4 +91,32 @@ h3 {
     text-align: center;
     padding-top: 10px;
     font-size: 17px;
+    
 }
+.isi {
+    margin-top: 4rem;
+}
+
+model-viewer {
+    width: 50%;
+    height: 100%;
+}  
+
+
+#Home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(50deg, rgb(49, 49, 49), rgb(255, 255, 255));
+      
+}
+
+@media only screen and (max-width: 480px){
+.list{
+    display: none;
+}
+#sidebar{
+    width: 30%;
+    margin-left: 500%;
+}
+}
+
