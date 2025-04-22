@@ -12,7 +12,7 @@ body{
 }
 
 nav {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(0, 0, 0);
     height: 4rem;
     width: 100%;
     display: flex;
@@ -74,7 +74,7 @@ h3 {
 #sidebar {
     width: 20%;
     height: 100vh;
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(0, 0, 0);
     margin-left: -30%;
     position: fixed;
     transition: all 0.5s;
@@ -198,6 +198,23 @@ box-shadow: 0px 9px 15px -5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.dptx {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ptx {
+    background-color: rgb(41, 41, 41);
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.5s all;
+    width: 80%;
+    color: white;
+    line-height: 150%;
+    margin-top: 5%;
 }
 
 @media screen and (max-width: 768px) {
