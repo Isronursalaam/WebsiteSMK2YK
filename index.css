@@ -145,7 +145,7 @@ model-viewer {
 #Home{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(50deg, rgb(49, 49, 49), rgb(255, 255, 255));
+    background: linear-gradient(45deg, rgb(49, 49, 49), rgb(255, 255, 255));
     display: flex;
       
 }
