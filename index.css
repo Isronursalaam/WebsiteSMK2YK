@@ -4,6 +4,11 @@ html, * {
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
+}
+
+body{
+    background: linear-gradient(125deg, rgb(49, 49, 49), rgb(255, 255, 255));
 }
 
 nav {
@@ -74,7 +79,8 @@ h3 {
     position: fixed;
     transition: all 0.5s;
     color: white;
-    z-index: 2;
+    z-index: 5;
+    margin-top: -140px;
 }
 
 #penghilang {
@@ -137,20 +143,17 @@ model-viewer {
 
 }
 .ww{
-    width: 50%;
-    
+    width: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
- 
-    
+
 }
 #Home{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, rgb(49, 49, 49), rgb(255, 255, 255));
-     display: flex;
-      
+    
+    display: flex;
 }
 
 
@@ -158,19 +161,46 @@ model-viewer {
 #Profiljurusan{
     width: 100%;
     height: 100vh;
-    background: rgb(206, 206, 206);
-    border-top: 1px solid;
 }
 
 .jd {
-    width: 100%;
-    background-color: rgb(85, 85, 85);
+    background-color: #353535;
     color: white;
-    height: 30px;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul {
+    display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    
+    padding-top: 6rem;
+}
+
+.des {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.des p {
+    padding: 10px;
+}
+
+.header{
+    background: url(image/head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding-top: 5rem;
+    z-index: 1;
 }
 
 
