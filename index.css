@@ -139,7 +139,7 @@ h3 {
 .text{
     color: white;
     background-color: #0C1017;
-    width: 70%;
+    width: 60%;
     text-align: justify;
     border-radius: 3px;
     border: 1px solid #33393D;
@@ -149,12 +149,13 @@ h3 {
 .penje {
     padding: 20px;
     font-size: 14px;
+    line-height: 20px;
 }
 
 
 
 .jd {
-    border-bottom: 1px solid rgb(127, 127, 127);
+    border-bottom: 1px solid #33393D;
 }
 
 .wgam{
@@ -168,7 +169,7 @@ h3 {
 .jdt{
     padding: 10px 10px 0 15px;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 24px;
 }
 
 .jdy {
@@ -177,8 +178,8 @@ h3 {
 }
 
 model-viewer {
-    width: 70%;
-    height: 500px;
+    width: 800px;
+    height: 800px;
 }
 
 .ww{
@@ -217,7 +218,73 @@ model-viewer {
 }
 
 
-@media screen and (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+.wraper{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapers{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil {
+    background-color: #0C1017;
+    border: 1px solid #33393D;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.suji {
+    padding: 30px;
+    font-size: 30px
+}
+
+.pisi{
+    padding: 30px;
+}
+
+.profiljudul {
+    border-bottom: 1px solid #33393D;
+}
+
+
+
+
+table ,th ,tr td {
+    border: 1px solid #33393D;
+    background-color: #0C1017;
+}
+
+th, td, tr {
+    padding: 10px;
+}
+
+table {
+    width: 70%;
+}
+
+
+@media screen and (max-width: 900px) {
     .list {
         display: none;
     }
