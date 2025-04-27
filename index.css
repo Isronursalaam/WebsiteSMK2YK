@@ -38,17 +38,15 @@ body::before {
   }
 
 nav {
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background-color: #0C1017;
     height: 4rem;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0 20px;
     position: fixed;
     z-index: 3;
-    border-bottom: 0.1px solid rgb(127, 127, 127);
+    border-bottom: 0.1px solid #33393D;
 }
 
 nav ul {
@@ -70,9 +68,9 @@ nav ul li a {
     transition: all 0.3s ease;
 }
 
-nav ul li a:hover {
-    text-decoration: underline white;
-    color: #ccc;
+nav ul li :hover {
+    background-color: #1B242C;
+    border-radius: 5px;
 }
 
 .logo img {
@@ -86,6 +84,8 @@ nav ul li a:hover {
     align-items: center;
 }
 
+
+
 h3 {
     color: white;
     padding: 10px;
@@ -93,7 +93,9 @@ h3 {
 }
 
 .list {
-    margin-left: auto;
+    margin-left: 20px;
+    margin-top: -10px;
+
 }
 
 #sidebar {
@@ -136,14 +138,12 @@ h3 {
 
 .text{
     color: white;
-    --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1)) /* #0f172a */;
-    width: 80%;
+    background-color: #0C1017;
+    width: 70%;
     text-align: justify;
-    border-radius: 5px;
-    transition: 0.3s all;
-    border: 1px solid rgb(127, 127, 127);
-    
+    border-radius: 3px;
+    border: 1px solid #33393D;
+    margin-right: 100px;
 }
 
 .penje {
@@ -158,7 +158,7 @@ h3 {
 }
 
 .wgam{
-    width: 50%;
+    width: 40%;
     height: 100vh;
     display:flex ;
     justify-content: center;
@@ -182,7 +182,7 @@ model-viewer {
 }
 
 .ww{
-    width: 50%; 
+    width: 60%; 
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -191,14 +191,10 @@ model-viewer {
 #Home{
     width: 100%;
     height: 100dvh;
-    border: solid;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 
 .header{
@@ -212,6 +208,12 @@ model-viewer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.active{
+    background-color: #3D7D3D;
+    border-radius: 5px;
+    width: 50px;
 }
 
 
