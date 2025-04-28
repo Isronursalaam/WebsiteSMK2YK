@@ -370,5 +370,9 @@ table {
     .list {
         display: none;
     }
+
+    .profil{
+        width: 90%;
+    }
 }
 
