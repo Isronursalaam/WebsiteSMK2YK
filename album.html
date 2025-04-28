@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+   
+</head>
+<body>
+    <div class="container">
+
+
+        <nav>
+
+            <div class="Bsidebar">
+                <button class="togle" id="pemuncul" onclick="muncul()">☰</button>
+                <button class="togle" id="penghilang" onclick="hilang()">X</button>
+            </div>
+            <div class="logo">
+                <img src="image/logo.avif" alt="">
+                <h3>SMK NEGERI 2 YOGYAKARTA</h3>
+            </div>
+       
+            <div class="list">
+             <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="ProfilJurusan.html">Profil Jurusan</a></li>
+                <li><a  href="prestasi.html">Prestasi</a></li>
+                <li><a class="active" href="">Album</a></li>
+                <li><a href="">Buku Tamu</a></li>
+            </ul>
+            </div>
+        </nav>
+
+        <div id="sidebar">
+            <div class="isi">
+            <ul>
+                <li><a href="">Beranda</a></li>
+                <li><a href="">Profil Jurusan</a></li>
+                <li><a href="">Prestasi</a></li>
+                <li><a href="">Album</a></li>
+                <li><a href="">Buku Tamu</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="gallery">
+ 
+      
+        <div class="gallery-wrap">
+          <div class="item item-1"><p>Gedung TITL</p></div>
+          <div class="item item-2"><p>Lantai 2</p></div>
+          <div class="item item-3"><p>Lab Komputer</p></div>
+          <div class="item item-4"><p>Ruang Praktek</p></div>
+          <div class="item item-5"><p>Alat</p></div>
+        </div>
+       </div>
+
+</div>
+</body>
+ <script src="index.js"></script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+
+</html>

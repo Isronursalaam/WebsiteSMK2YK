@@ -5,7 +5,7 @@ function muncul(){
 
 
     if (sidebarElement) {
-        sidebarElement.style.marginLeft = "0%";
+        sidebarElement.style.marginTop = "0";
     }
 
     if (pemunculElement) {
@@ -22,7 +22,7 @@ function hilang(){
     const sidebarElement = document.getElementById('sidebar');
 
     if (sidebarElement) {
-        sidebarElement.style.marginLeft = "-30%";
+        sidebarElement.style.marginTop = "-300px";
     }
     if (pemunculElement) {
         pemunculElement.style.display = "block";
@@ -31,3 +31,17 @@ function hilang(){
         penghilangElement.style.display = "none";
     }
 }
+
+
+let next = document.querySelector('.next')
+let prev = document.querySelector('.prev')
+
+next.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').appendChild(items[0])
+})
+
+prev.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
+})
