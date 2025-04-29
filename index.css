@@ -528,7 +528,9 @@ footer{
 
 .social-icons a {
     margin-left: 10px;
+    margin-right: 100px;
     color: #f1f1f1;
+    margin-top: 10px;
     text-decoration: none;
 }
 
@@ -536,7 +538,9 @@ footer{
     color: #55acee;
 }
 
-
+.sua{
+    color: white;
+}
 
 
 @supports (display: grid) {
