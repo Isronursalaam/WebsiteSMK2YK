@@ -8,7 +8,7 @@ html, * {
 }
 
 body{
-    font-family: 'Times New Roman', Times , serif;
+    
     background: radial-gradient(circle at center, #1c3b28 0%, #121212 60%, #0a0a0a 100%);
     background-attachment: fixed;
 }
