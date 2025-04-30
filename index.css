@@ -575,6 +575,9 @@ footer{
     .text {
        width:90%;
      }
+    table{
+      padding-top:100px;
+     }
      
 }
 
