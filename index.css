@@ -565,5 +565,13 @@ footer{
     .profil{
         width: 90%;
     }
+
+    footer{
+        display: none;
+     }
+    model-viewer {
+       display: none;
+   }
+     
 }
 
