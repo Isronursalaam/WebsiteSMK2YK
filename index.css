@@ -572,6 +572,9 @@ footer{
     model-viewer {
        display: none;
    }
+    .text {
+       width:90%;
+     }
      
 }
 
